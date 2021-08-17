@@ -1,0 +1,26 @@
+– git status
+Check the state of the directory and staging area.
+
+-git diff "file name.extension"
+View changes to file.
+
+-git add "file name.extension"
+Adds a file or change in the working directory to the staging area.
+
+-git commit -m "commit title"
+Create snapshot of staged changes and label the commit.
+
+-git push origin branch
+Push changes to branch
+
+- git config --global core.editor "code --wait"
+Make VS Code the default editor for the .gitconfig file.
+
+– git config --global -e
+Open .gitconfig file.
+(My alias: git openconfig)
+
+– git branch
+Check which branch you are in.
+
+-git branch -b new-branch-name
